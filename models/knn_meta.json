@@ -1,8 +1,0 @@
-{
-    "best_params": {
-        "knn__n_neighbors": 30,
-        "knn__p": 1,
-        "knn__weights": "distance"
-    },
-    "best_cv_rmse": 98.80028806058955
-}

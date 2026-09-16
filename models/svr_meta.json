@@ -1,9 +1,0 @@
-{
-    "best_params": {
-        "svr__kernel": "rbf",
-        "svr__gamma": "auto",
-        "svr__epsilon": 0.05,
-        "svr__C": 3
-    },
-    "best_cv_rmse": 100.50960581025493
-}
