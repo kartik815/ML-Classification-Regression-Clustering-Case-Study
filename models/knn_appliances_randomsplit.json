@@ -1,0 +1,8 @@
+{
+    "best_params": {
+        "n_neighbors": 3,
+        "p": 1,
+        "weights": "distance"
+    },
+    "best_cv_rmse": 73.53057349305573
+}

@@ -1,0 +1,9 @@
+{
+    "best_params": {
+        "kernel": "rbf",
+        "gamma": "auto",
+        "epsilon": 0.2,
+        "C": 30
+    },
+    "best_cv_rmse": 96.46419427404305
+}
