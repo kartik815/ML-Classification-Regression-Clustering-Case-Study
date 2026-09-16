@@ -1,0 +1,8 @@
+{
+    "best_params": {
+        "max_depth": null,
+        "min_samples_leaf": 10,
+        "min_samples_split": 2
+    },
+    "best_cv_rmse": 87.67910089050405
+}
