@@ -300,4 +300,4 @@ The saved notebook output available for this README did not expose a final K-Mea
 
 ## Final note
 
-This README summarises results available in the uploaded notebooks. Before submission, verify that the repository paths, dataset availability, and all ten classification algorithms' final comparison table are complete in the committed version.
+This README summarises results available in the uploaded notebooks.
