@@ -36,6 +36,7 @@ The notebooks include data inspection, preprocessing, model training, evaluation
 - Scikit-learn
 - Scipy
 - Joblib
+- jinja2
 
 Install the common dependencies:
 
