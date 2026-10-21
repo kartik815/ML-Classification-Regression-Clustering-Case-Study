@@ -6,9 +6,9 @@ This repository contains our Machine Learning Capstone work for **23CSE301 — M
 
 - **Regression:** predicting a continuous target.
 - **Classification:** predicting the binary diabetes indicator.
-- **Clustering:** exploring structure in health-indicator data without using labels to fit clusters.
+- **Clustering:** exploring structure of multiclass diabetes data without using labels to fit clusters.
 
-The notebooks include data inspection, preprocessing, model training, evaluation, visualisation, and model comparisons. Results below are transcribed from the saved notebook outputs supplied with the project; where the notebook does not provide a final value, this README does not invent one.
+The notebooks include data inspection, preprocessing, model training, evaluation, visualisation, and model comparisons. Results below are transcribed from the saved notebook outputs supplied with the project.
 
 ## Repository contents
 
@@ -18,13 +18,12 @@ The notebooks include data inspection, preprocessing, model training, evaluation
 ├── classification.ipynb
 ├── clustering.ipynb
 ├── regression1-checkpoint.ipynb   # checkpoint; not the primary regression notebook
-├── data/                          # place the required datasets here, if not already provided
-├── models/                        # optional saved model files used by the regression notebook
+├── data/                          # datasets are stored here
+├── models/                        # optional saved model files used by the notebooks
+├── notebooks/                     # Contains the above mentoined notebooks
 ├── requirements.txt               # create/maintain for the team's environment
 └── README.md
 ```
-
-Update filenames and folders if the Git repository uses a different structure. The clustering notebook was supplied from the `ram` branch.
 
 ## Requirements
 
@@ -35,6 +34,7 @@ Update filenames and folders if the Git repository uses a different structure. T
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Scipy
 - Joblib
 
 Install the common dependencies:
@@ -56,10 +56,19 @@ source .venv/bin/activate
 Install dependencies:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn joblib jupyter
+pip install numpy pandas matplotlib seaborn scikit-learn joblib jupyter scipy jinja2
+```
+or 
+
+```bash
+pip install -r requirements.txt
 ```
 
-If the team has a maintained `requirements.txt`, prefer `pip install -r requirements.txt`.
+or 
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ## Running the notebooks
 
@@ -74,7 +83,7 @@ If the team has a maintained `requirements.txt`, prefer `pip install -r requirem
 
 5. Open each notebook and run cells from top to bottom.
 
-The regression notebook uses helper functions and may load saved models from `../models/`; ensure the relevant helper code, dataset paths, and model directory are present. The classification notebook uses the CDC BRFSS 2015 diabetes health indicators CSV. The clustering notebook uses the BRFSS 2021 diabetes health indicators CSV.
+The regression notebook uses helper functions and may load saved models from `../models/`; ensure the relevant helper code, dataset paths, and model directory are present. The classification notebook uses the CDC BRFSS 2015 diabetes health indicators CSV. The clustering notebook uses the clustering.csv.
 
 ---
 
